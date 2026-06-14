@@ -32,7 +32,7 @@ done
 fi
 
 # linux
-eog out.svg &
+# eog out.svg &
 inotifywait  -q -m -e close_write ${script} | while read; do
     update
 done
