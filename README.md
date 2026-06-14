@@ -5,5 +5,5 @@ environment to easily iterate with tricky software.
 
 ``` bash
 cd c-preprocessor
-./whatch c-preprocessor
+./watch.sh c-preprocessor
 ```
